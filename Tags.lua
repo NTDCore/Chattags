@@ -22,5 +22,13 @@ return {
   ["sss_6475487"] = {
     TagText = "COMET SCRIPTER",
     TagColor = Color3.fromRGB(65,65,255)
-  }
+  },
+  ["PrismUserz"] = {
+    TagText = "Prism User",
+    TagColor = Color3.fromRGB(145, 0, 255)
+    },
+  ["Kuza_ma"] = {
+    TagText = "NIGHTBED OWNER",
+    TagColor = Color3.fromRGB(145, 0, 255)
+    }
 }
