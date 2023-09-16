@@ -39,6 +39,10 @@ return {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
+	["ERSERRRN"] = {
+		TagText = "Cuban Mario",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
 	["123153adsafdasfads "] = {
 		TagText = "EXHIBITION OWNER", -- Muni
 		TagColor = Color3.fromRGB(255,95,95)
