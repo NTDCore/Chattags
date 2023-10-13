@@ -111,6 +111,10 @@ return {
 		TagText = "BEDOL OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
+	["realosuplayerfnf"] = {
+		TagText = "BEDOL OWNER",
+		TagColor = Color3.fromRGB(255,95,95)
+	},
 	["risezar"] = {
 		TagText = "VAPE OWNER",
 		TagColor = Color3.fromRGB(255,95,95)
