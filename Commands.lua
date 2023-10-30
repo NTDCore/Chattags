@@ -282,22 +282,23 @@ end
 
 spawn(function()
 	for i,v in pairs(game:GetService("Players"):GetChildren()) do
-	if table.find(whitelist.Owners,v.UserId) then
-	  if TextChatService then
-			sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), true) -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
-		else
-		  sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), false)
-		end
-	end
-	game:GetService("Players").ChildAdded:Connect(function(v)
 		if table.find(whitelist.Owners,v.UserId) then
-			if TextChatService then
-			  sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), true) -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
-	  	else
-		    sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), false)
-		  end
+		  if TextChatService then
+				sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), true) -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+			else
+			  sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), false)
+			end
 		end
-	end)
+		game:GetService("Players").ChildAdded:Connect(function(v)
+			if table.find(whitelist.Owners,v.UserId) then
+				if TextChatService then
+				  sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), true) -- this code i fix it now it will sent the sysmsg  but u still cant use commands tho
+		  	else
+			    sysmsg("{DETECTED} OWNER WAS IN YOU GAME", Color3.fromRGB(255, 255, 255), false)
+			  end
+			end
+		end)
+	end
 end)
 
 for i,v in pairs(game:GetService("Players"):GetChildren()) do
