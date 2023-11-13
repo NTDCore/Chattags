@@ -20,7 +20,7 @@ return {
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["xAom95"] = {
-		TagText = "RegalSentry is RegularSentry",
+		TagText = "america is deepshit",
 		TagColor = Color3.fromRGB(255,95,95)
 	},
 	["MaxlaserTechFarm3"] = {
